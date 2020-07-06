@@ -1,0 +1,44 @@
+body {
+    background: black;
+    color: white;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#descricao {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 15px;
+}
+em {
+    font-weight: bold;
+}
+.ler {
+    font-size: 13px;
+    color: chartreuse;
+}
+.ouvir {
+    font-size: 15px;
+}
+.resp {
+    font-size: 17px;
+    color: chartreuse;
+}
+.pac {
+    font-size: 19px;
+}
+#foto {
+    
+    float: left;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+    width: 120px;
+    padding: 10px;
+    background: burlywood;
+}
+#box {
+    
+    padding: 16px;
+}
