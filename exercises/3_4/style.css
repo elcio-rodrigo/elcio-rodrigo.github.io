@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+.foto {
+    margin-right: 10px;
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+p {
+    font-size: 30px;
+    color: white;
+}
+section {
+    padding: 30px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+.foto1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+    table-layout: fixed;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    font-weight: 600;
+    border: 5px solid white;
+    text-size-adjust: auto;
+    color: white;
+}
+.desc {
+    color: yellowgreen;
+}
+.artigo {
+    
+    margin-left: 550px;
+    width: 300px;
+    
+}
+.rodape {
+    
+    padding: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.lateral {
+    
+    background-color: black ;
+    border-radius: 20px;
+    float: left;
+    width: 30%;
+    margin-left: 150px;
+    
+    top: 30px;
+}
+p>a {
+    color: white;
+}
+a:link {
+    color: white;
+}
+li>a {
+    color: white;
+}
