@@ -1,6 +1,7 @@
 body {
     background: black;
     color: white;
+    
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,4 +42,37 @@ em {
 #box {
     
     padding: 16px;
+}
+
+.habil {
+    border: 2px dashed white;
+    text-align: center;
+    padding: 10px;
+}
+div.habil ul {
+    margin-left: 340px;
+    text-align: left;
+}
+.menu li {
+    display: inline;
+    border: 1px solid white;
+    border-radius: 10%;
+    margin-right: 20px;
+    
+    padding: 5px;
+}
+div>ul>li a:link {
+    color: white;
+}
+div>p>a:link {
+    color: tomato;
+}
+div>p>a:visited {
+    color: tomato;
+}
+.menu li>a:link {
+    color: tomato;
+}
+.menu li>a:visited {
+    color: tomato;
 }
