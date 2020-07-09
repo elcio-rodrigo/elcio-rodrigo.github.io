@@ -53,6 +53,10 @@ div.habil ul {
     margin-left: 340px;
     text-align: left;
 }
+div.habil ul.pessoal {
+    margin-left: 450px;
+    text-align: left;
+}
 .menu li {
     display: inline;
     border: 1px solid white;
