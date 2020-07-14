@@ -1,5 +1,5 @@
-let pecaDeXadrez = "rainha";
-switch (pecaDeXadrez) {
+let pecaDeXadrez = "DRAFT";
+switch (pecaDeXadrez.toLowerCase()) {
     case "peao":
         console.log("O peão move uma casa para frente");
         break;
