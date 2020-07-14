@@ -3,32 +3,40 @@ body {
     color: white;
     
 }
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
 #descricao {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     padding: 15px;
 }
+
 em {
     font-weight: bold;
 }
+
 .ler {
     font-size: 13px;
     color: chartreuse;
 }
+
 .ouvir {
     font-size: 15px;
 }
+
 .resp {
     font-size: 17px;
     color: chartreuse;
 }
+
 .pac {
     font-size: 19px;
 }
+
 #foto {
     
     float: left;
@@ -39,6 +47,7 @@ em {
     padding: 10px;
     background: burlywood;
 }
+
 #box {
     
     padding: 16px;
@@ -49,14 +58,17 @@ em {
     text-align: center;
     padding: 10px;
 }
+
 div.habil ul {
     margin-left: 340px;
     text-align: left;
 }
+
 div.habil ul.pessoal {
     margin-left: 450px;
     text-align: left;
 }
+
 .menu li {
     display: inline;
     border: 1px solid white;
@@ -65,18 +77,23 @@ div.habil ul.pessoal {
     
     padding: 5px;
 }
+
 div>ul>li a:link {
     color: white;
 }
+
 div>p>a:link {
     color: tomato;
 }
+
 div>p>a:visited {
     color: tomato;
 }
+
 .menu li>a:link {
     color: tomato;
 }
+
 .menu li>a:visited {
     color: tomato;
 }
