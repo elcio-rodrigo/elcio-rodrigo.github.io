@@ -1,3 +1,4 @@
+// pirâmide vazia no meio
 let n = 7;
 let linha = [];
 let base = [];

@@ -1,3 +1,4 @@
+// triângulo retângulo invertido
 let n = 5;
 let asterisco = '*';
 let linha = '';
