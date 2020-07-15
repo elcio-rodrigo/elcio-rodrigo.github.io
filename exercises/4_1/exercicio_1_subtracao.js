@@ -1,4 +1,4 @@
-let a=10;
-let b=5;
-let subtracao = a - b;
-console.log(subtracao);
+function subtracao(a, b) {
+    return a - b;
+}
+console.log(subtracao(10, 5));

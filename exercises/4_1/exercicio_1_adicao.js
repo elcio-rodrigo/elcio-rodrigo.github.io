@@ -1,4 +1,4 @@
-let a=10;
-let b=5;
-let soma = a + b;
-console.log(soma);
+function soma(a, b) {
+    return a + b;
+}
+console.log(soma(10, 5));

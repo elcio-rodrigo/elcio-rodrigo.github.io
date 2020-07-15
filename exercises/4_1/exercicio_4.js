@@ -1,10 +1,12 @@
-let a = 10;
-if (a > 0) {
-    console.log("Positive");
+function positivoNegativo(a) {
+    if (a > 0) {
+        return "Positive";
+    }
+    else if (a < 0) {
+        return "Negatuve";
+    }
+    else {
+        return "Zero";
+    }
 }
-else if (a < 0) {
-    console.log("Negatuve");
-}
-else {
-    console.log("Zero");
-}
+console.log(positivoNegativo(5));

@@ -1,7 +1,10 @@
-let a = 10;
-let b = 5;
-if (a > b) {
-    console.log(a);
-} else {
-    console.log(b);
+function numeroMaior(a, b) {
+    let maior = 0;
+    if (a > b) {
+        maior = a;
+    } else {
+        maior = b;
+    }
+    return maior;
 }
+console.log(numeroMaior(10, 5));

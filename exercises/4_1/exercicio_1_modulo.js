@@ -1,4 +1,4 @@
-let a = 10;
-let b = 5;
-let modulo = a % b;
-console.log(modulo);
+function modulo(a, b) {
+    return a % b;
+}
+console.log(modulo(10, 5));
