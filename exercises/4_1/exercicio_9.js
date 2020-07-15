@@ -1,11 +1,10 @@
-let a = 19;
-let b = 5;
-let c = 1;
-let ehImpar = false
-if ((a % 2 !== 0) || (b % 2 !== 0) || ( c % 2 !== 0)) {
-    ehImpar = true;
+function algumImpar(a, b, c) {
+    if ((a % 2 !== 0) || (b % 2 !== 0) || ( c % 2 !== 0)) {
+        temImpar = true;
+    }
+    else {
+        temImpar = false;
+    }
+    return temImpar;
 }
-else {
-    ehImpar = false;
-}
-console.log(ehImpar);
+console.log(algumImpar(22, 12, 68));

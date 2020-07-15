@@ -1,12 +1,13 @@
-let a = 10;
-let b = 5;
-let c = 2;
-if ((a > b) && (a > c)) {
-    console.log(a);
+function maiorDe3Numeros(a, b, c) {
+    let maior = 0;
+    if ((a > b) && (a > c)) {
+        return a;
+    }
+    else if ((b > a) && (b > c)) {
+        return b;
+    }
+    else {
+        return c;;
+    }
 }
-else if ((b > a) && (b > c)) {
-    console.log(b);
-}
-else {
-    console.log(c);
-}
+console.log(maiorDe3Numeros(19, 25, 56));

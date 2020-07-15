@@ -1,11 +1,11 @@
-let a = 19;
-let b = 5;
-let c = 1;
-let ehPar = false
-if ((a % 2 == 0) || (b % 2 == 0) || ( c % 2 == 0)) {
-    ehPar = true;
+function algumPar(a, b, c) {
+    let temPar;
+    if ((a % 2 == 0) || (b % 2 == 0) || ( c % 2 == 0)) {
+        temPar = true;
+    }
+    else {
+        temPar = false;
+    }
+    return temPar;
 }
-else {
-    ehPar = false;
-}
-console.log(ehPar);
+console.log(algumPar(22, 11, 68));
